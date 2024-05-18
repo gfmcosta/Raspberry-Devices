@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026758082BF94FF100E6655F /* Raspberry_DevicesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026758072BF94FF100E6655F /* Raspberry_DevicesApp.swift */; };
+		0267580A2BF94FF100E6655F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026758092BF94FF100E6655F /* ContentView.swift */; };
+		0267580C2BF94FF300E6655F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0267580B2BF94FF300E6655F /* Assets.xcassets */; };
+		0267580F2BF94FF300E6655F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0267580E2BF94FF300E6655F /* Preview Assets.xcassets */; };
+		026758192BF94FF300E6655F /* Raspberry_DevicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026758182BF94FF300E6655F /* Raspberry_DevicesTests.swift */; };
+		026758232BF94FF300E6655F /* Raspberry_DevicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026758222BF94FF300E6655F /* Raspberry_DevicesUITests.swift */; };
+		026758252BF94FF300E6655F /* Raspberry_DevicesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026758242BF94FF300E6655F /* Raspberry_DevicesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		026758152BF94FF300E6655F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026757FC2BF94FF100E6655F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026758032BF94FF100E6655F;
+			remoteInfo = "Raspberry Devices";
+		};
+		0267581F2BF94FF300E6655F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026757FC2BF94FF100E6655F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026758032BF94FF100E6655F;
+			remoteInfo = "Raspberry Devices";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026758042BF94FF100E6655F /* Raspberry Devices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raspberry Devices.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		026758072BF94FF100E6655F /* Raspberry_DevicesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_DevicesApp.swift; sourceTree = "<group>"; };
+		026758092BF94FF100E6655F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0267580B2BF94FF300E6655F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0267580E2BF94FF300E6655F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		026758142BF94FF300E6655F /* Raspberry DevicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raspberry DevicesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		026758182BF94FF300E6655F /* Raspberry_DevicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_DevicesTests.swift; sourceTree = "<group>"; };
+		0267581E2BF94FF300E6655F /* Raspberry DevicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raspberry DevicesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		026758222BF94FF300E6655F /* Raspberry_DevicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_DevicesUITests.swift; sourceTree = "<group>"; };
+		026758242BF94FF300E6655F /* Raspberry_DevicesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_DevicesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		026758012BF94FF100E6655F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026758112BF94FF300E6655F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0267581B2BF94FF300E6655F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026757FB2BF94FF100E6655F = {
+			isa = PBXGroup;
+			children = (
+				026758062BF94FF100E6655F /* Raspberry Devices */,
+				026758172BF94FF300E6655F /* Raspberry DevicesTests */,
+				026758212BF94FF300E6655F /* Raspberry DevicesUITests */,
+				026758052BF94FF100E6655F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		026758052BF94FF100E6655F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				026758042BF94FF100E6655F /* Raspberry Devices.app */,
+				026758142BF94FF300E6655F /* Raspberry DevicesTests.xctest */,
+				0267581E2BF94FF300E6655F /* Raspberry DevicesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		026758062BF94FF100E6655F /* Raspberry Devices */ = {
+			isa = PBXGroup;
+			children = (
+				026758072BF94FF100E6655F /* Raspberry_DevicesApp.swift */,
+				026758092BF94FF100E6655F /* ContentView.swift */,
+				0267580B2BF94FF300E6655F /* Assets.xcassets */,
+				0267580D2BF94FF300E6655F /* Preview Content */,
+			);
+			path = "Raspberry Devices";
+			sourceTree = "<group>";
+		};
+		0267580D2BF94FF300E6655F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0267580E2BF94FF300E6655F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		026758172BF94FF300E6655F /* Raspberry DevicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				026758182BF94FF300E6655F /* Raspberry_DevicesTests.swift */,
+			);
+			path = "Raspberry DevicesTests";
+			sourceTree = "<group>";
+		};
+		026758212BF94FF300E6655F /* Raspberry DevicesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				026758222BF94FF300E6655F /* Raspberry_DevicesUITests.swift */,
+				026758242BF94FF300E6655F /* Raspberry_DevicesUITestsLaunchTests.swift */,
+			);
+			path = "Raspberry DevicesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		026758032BF94FF100E6655F /* Raspberry Devices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026758282BF94FF300E6655F /* Build configuration list for PBXNativeTarget "Raspberry Devices" */;
+			buildPhases = (
+				026758002BF94FF100E6655F /* Sources */,
+				026758012BF94FF100E6655F /* Frameworks */,
+				026758022BF94FF100E6655F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Raspberry Devices";
+			productName = "Raspberry Devices";
+			productReference = 026758042BF94FF100E6655F /* Raspberry Devices.app */;
+			productType = "com.apple.product-type.application";
+		};
+		026758132BF94FF300E6655F /* Raspberry DevicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0267582B2BF94FF300E6655F /* Build configuration list for PBXNativeTarget "Raspberry DevicesTests" */;
+			buildPhases = (
+				026758102BF94FF300E6655F /* Sources */,
+				026758112BF94FF300E6655F /* Frameworks */,
+				026758122BF94FF300E6655F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026758162BF94FF300E6655F /* PBXTargetDependency */,
+			);
+			name = "Raspberry DevicesTests";
+			productName = "Raspberry DevicesTests";
+			productReference = 026758142BF94FF300E6655F /* Raspberry DevicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0267581D2BF94FF300E6655F /* Raspberry DevicesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0267582E2BF94FF300E6655F /* Build configuration list for PBXNativeTarget "Raspberry DevicesUITests" */;
+			buildPhases = (
+				0267581A2BF94FF300E6655F /* Sources */,
+				0267581B2BF94FF300E6655F /* Frameworks */,
+				0267581C2BF94FF300E6655F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026758202BF94FF300E6655F /* PBXTargetDependency */,
+			);
+			name = "Raspberry DevicesUITests";
+			productName = "Raspberry DevicesUITests";
+			productReference = 0267581E2BF94FF300E6655F /* Raspberry DevicesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		026757FC2BF94FF100E6655F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					026758032BF94FF100E6655F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					026758132BF94FF300E6655F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 026758032BF94FF100E6655F;
+					};
+					0267581D2BF94FF300E6655F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 026758032BF94FF100E6655F;
+					};
+				};
+			};
+			buildConfigurationList = 026757FF2BF94FF100E6655F /* Build configuration list for PBXProject "Raspberry Devices" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 026757FB2BF94FF100E6655F;
+			productRefGroup = 026758052BF94FF100E6655F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				026758032BF94FF100E6655F /* Raspberry Devices */,
+				026758132BF94FF300E6655F /* Raspberry DevicesTests */,
+				0267581D2BF94FF300E6655F /* Raspberry DevicesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		026758022BF94FF100E6655F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0267580F2BF94FF300E6655F /* Preview Assets.xcassets in Resources */,
+				0267580C2BF94FF300E6655F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026758122BF94FF300E6655F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0267581C2BF94FF300E6655F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		026758002BF94FF100E6655F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0267580A2BF94FF100E6655F /* ContentView.swift in Sources */,
+				026758082BF94FF100E6655F /* Raspberry_DevicesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026758102BF94FF300E6655F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026758192BF94FF300E6655F /* Raspberry_DevicesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0267581A2BF94FF300E6655F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026758232BF94FF300E6655F /* Raspberry_DevicesUITests.swift in Sources */,
+				026758252BF94FF300E6655F /* Raspberry_DevicesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		026758162BF94FF300E6655F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 026758032BF94FF100E6655F /* Raspberry Devices */;
+			targetProxy = 026758152BF94FF300E6655F /* PBXContainerItemProxy */;
+		};
+		026758202BF94FF300E6655F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 026758032BF94FF100E6655F /* Raspberry Devices */;
+			targetProxy = 0267581F2BF94FF300E6655F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		026758262BF94FF300E6655F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		026758272BF94FF300E6655F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		026758292BF94FF300E6655F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Raspberry Devices/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ipt.Raspberry-Devices";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0267582A2BF94FF300E6655F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Raspberry Devices/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ipt.Raspberry-Devices";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0267582C2BF94FF300E6655F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ipt.Raspberry-DevicesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raspberry Devices.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Raspberry Devices";
+			};
+			name = Debug;
+		};
+		0267582D2BF94FF300E6655F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ipt.Raspberry-DevicesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raspberry Devices.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Raspberry Devices";
+			};
+			name = Release;
+		};
+		0267582F2BF94FF300E6655F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ipt.Raspberry-DevicesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Raspberry Devices";
+			};
+			name = Debug;
+		};
+		026758302BF94FF300E6655F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ipt.Raspberry-DevicesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Raspberry Devices";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		026757FF2BF94FF100E6655F /* Build configuration list for PBXProject "Raspberry Devices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026758262BF94FF300E6655F /* Debug */,
+				026758272BF94FF300E6655F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		026758282BF94FF300E6655F /* Build configuration list for PBXNativeTarget "Raspberry Devices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026758292BF94FF300E6655F /* Debug */,
+				0267582A2BF94FF300E6655F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0267582B2BF94FF300E6655F /* Build configuration list for PBXNativeTarget "Raspberry DevicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0267582C2BF94FF300E6655F /* Debug */,
+				0267582D2BF94FF300E6655F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0267582E2BF94FF300E6655F /* Build configuration list for PBXNativeTarget "Raspberry DevicesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0267582F2BF94FF300E6655F /* Debug */,
+				026758302BF94FF300E6655F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 026757FC2BF94FF100E6655F /* Project object */;
+}
