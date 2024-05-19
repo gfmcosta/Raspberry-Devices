@@ -14,6 +14,7 @@
 		026758192BF94FF300E6655F /* Raspberry_DevicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026758182BF94FF300E6655F /* Raspberry_DevicesTests.swift */; };
 		026758232BF94FF300E6655F /* Raspberry_DevicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026758222BF94FF300E6655F /* Raspberry_DevicesUITests.swift */; };
 		026758252BF94FF300E6655F /* Raspberry_DevicesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026758242BF94FF300E6655F /* Raspberry_DevicesUITestsLaunchTests.swift */; };
+		026758342BF9696700E6655F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026758332BF9696700E6655F /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0267581E2BF94FF300E6655F /* Raspberry DevicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raspberry DevicesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		026758222BF94FF300E6655F /* Raspberry_DevicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_DevicesUITests.swift; sourceTree = "<group>"; };
 		026758242BF94FF300E6655F /* Raspberry_DevicesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_DevicesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		026758332BF9696700E6655F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				026758092BF94FF100E6655F /* ContentView.swift */,
 				0267580B2BF94FF300E6655F /* Assets.xcassets */,
 				0267580D2BF94FF300E6655F /* Preview Content */,
+				026758332BF9696700E6655F /* MenuView.swift */,
 			);
 			path = "Raspberry Devices";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0267580A2BF94FF100E6655F /* ContentView.swift in Sources */,
+				026758342BF9696700E6655F /* MenuView.swift in Sources */,
 				026758082BF94FF100E6655F /* Raspberry_DevicesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Raspberry Devices/Preview Content\"";
+				DEVELOPMENT_TEAM = 7MWHN66FV6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Raspberry Devices/Preview Content\"";
+				DEVELOPMENT_TEAM = 7MWHN66FV6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
